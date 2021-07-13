@@ -23,7 +23,7 @@ TeamUp - A MERN Stack Chat and Video Conferencing Application. The application i
 
 ## Screenshots 📸
 ### Register Page
-![enter image description here]
+![enter image description here]![1](https://user-images.githubusercontent.com/56886360/125458040-d14d4611-686e-41fd-8572-ee8952147ea2.png)
 ### Login Page
 ![enter image description here](https://user-images.githubusercontent.com/56886360/125245756-8f68f600-e30e-11eb-82e4-cab7ecf019a4.png)
 ### Home Page
