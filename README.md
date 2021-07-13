@@ -48,9 +48,9 @@ MONGO_URL=' '
 //Add your RedisLab db host string here
 REDIS_HOST=' '
 //Add your RedisLab db port string here
-REDIS_PORT=17493
+REDIS_PORT=' '  
 //Add your RedisLab db password here
-REDIS_PASS=lqH5MIZh8h8elkv5Rq65n4yMYIA09qZg
+REDIS_PASS=' '
 
 ```
 - Install the dependencies for the backend 
