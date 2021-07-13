@@ -1,0 +1,13 @@
+.rightbar {
+    flex: 8;
+    background-color: #f7f4f46b;
+    height: calc(100vh - 60px);
+}
+
+.activitycontainer {
+    display: flex;
+    align-items: center;
+    margin-left: 17vh;
+    margin-right: 17vh;
+    margin-top: 20vh;
+}

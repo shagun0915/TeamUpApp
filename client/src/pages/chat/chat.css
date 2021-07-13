@@ -1,0 +1,264 @@
+.homeContainer {
+    display: flex;
+    width: 100%;
+}
+
+.chatfeed {
+    flex: 3;
+    background-color: #b3aeae1f;
+    height: calc(100vh - 60px);
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(175, 174, 174);
+}
+
+.feedWrapper {
+    padding: 20px;
+}
+
+.feedHeading {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.feedHeadingText {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.feedHeadingIcon {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.feedHeadingLine {
+    margin-top: 20px;
+}
+
+.search {
+    min-height: 49px;
+    background: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.search .icon-block {
+    position: absolute;
+    left: 20px;
+    color: #919191;
+    font-size: 14px;
+}
+
+.search input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 40px;
+    outline: none;
+    font-size: 16px;
+    color: #919191;
+}
+
+.chat-cards-listing {
+    overflow-y: auto;
+}
+
+.chatrightbar {
+    flex: 6;
+    background-color: #f7f4f46b;
+    height: calc(100vh - 60px);
+}
+
+
+/* .chat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ebebeb;
+    min-height: 66px;
+    padding: 0 15px;
+}
+
+.chat-header .img-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    font-size: 25px;
+    color: #555;
+}
+
+.chat-header .img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.chat-header .action-items {
+    color: #919191;
+}
+
+.chat-header .action-items .icon-block {
+    padding: 10px;
+    cursor: pointer;
+} */
+
+.chat-section {
+    flex: 1;
+    background: hsl(240, 29%, 84%);
+    padding: 20px 20px;
+    overflow-y: scroll;
+    height: 78vh;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(175, 174, 174);
+}
+
+.chat-form {
+    background: #ebebeb;
+    min-height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat-form .action-btn {
+    display: flex;
+}
+
+.chat-form .icon-block {
+    padding: 0 15px;
+    font-size: 25px;
+    color: #9d9d9d;
+    opacity: 0.6;
+}
+
+.chat-form .icon-block.active {
+    color: #46c756;
+}
+
+.chat-form .icon-block:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.chat-form .chat-input {
+    flex: 1;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 0 20px;
+    outline: none;
+    font-size: 16px;
+    color: #555;
+}
+
+.chat-form .sound-wave {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    right: 60px;
+}
+
+.chat-form .file-share {
+    position: relative;
+}
+
+.chat-form .file-share input {
+    width: 25px;
+    height: 30px;
+    opacity: 0;
+    position: absolute;
+    left: 15px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.chat-form button {
+    display: none;
+}
+
+.chatOnline {
+    flex: 2;
+    background-color: #b3aeae1f;
+    height: calc(100vh - 60px);
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(175, 174, 174);
+}
+
+.chatOnlineWrapper {
+    padding: 20px;
+}
+
+.OnlinefeedHeading {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.OnlinefeedHeadingText {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.OnlinefeedHeadingIcon {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.OnlinefeedHeadingLine {
+    margin-top: 20px;
+}
+
+.chat-cards-listing {
+    overflow-y: auto;
+}
+
+.noConversationText {
+    position: absolute;
+    top: 15%;
+    font-size: 28px;
+    color: rgb(224, 220, 220);
+    text-align: center;
+    cursor: default;
+}

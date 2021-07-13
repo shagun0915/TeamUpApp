@@ -1,0 +1,30 @@
+.chat-section .chat {
+    line-height: 22px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 11px;
+    margin-bottom: 20px;
+    clear: both;
+    width: fit-content;
+    min-width: 100px;
+    position: relative;
+}
+
+.chat-section .chat.own {
+    margin-left: auto;
+    background-color: #dbf8c6;
+}
+
+.chat-section .chat .msg {
+    color: #000;
+    font-size: 15px;
+    margin: 5px 0 15px 0;
+}
+
+.chat-section .chat .time {
+    position: absolute;
+    bottom: -17px;
+    right: 5px;
+    color: #000 73;
+    font-size: xx-small;
+}
